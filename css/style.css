@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background-color: lightgreen;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 4px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  white-space: nowrap;
+}
+
+.btn {
+  padding: 30px 50px;
+  background-color: white;
+  border: none;
+  font-size: 30px;
+  border-radius: 10px;
+  margin: 10px;
+  min-width: 200px;
+  background: url("../image/tom.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-family: Sofia,sans-serif;
+  cursor: pointer;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+.btn:hover{
+    color: lightgreen;
+}
+
+.btn:hover{
+    background-size: 150%;
+}
+
+.special{
+  display: inline;
+  background: url('https://static01.nyt.com/images/2020/04/24/smarter-living/00sl-physical-greetings/00sl-physical-greetings-videoLarge.png');
+  padding: 30px 50px;
+  background-color: white;
+  border: none;
+  font-size: 30px;
+  border-radius: 10px;
+  margin: 10px;
+  min-width: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: blue;
+  font-family: Sofia,sans-serif;
+  cursor: pointer;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
